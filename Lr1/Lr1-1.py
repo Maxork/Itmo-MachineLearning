@@ -12,8 +12,9 @@ def load_data(filename):
 def split_dataset(test_size):
     dataset = load_data('data_banknote_authentication.txt')
     money_attr = dataset[:, 0:-1]
+	money_attr = money_attr.astype(np.float64)
     money_class = dataset[:, -1]
-    money_class = money_class.astype(np.int64, copy=False)
+    money_class = money_class.astype(np.float64, copy=False)
     data_train, data_test, class_train, class_test = train_test_split(money_attr, money_class, test_size=test_size,
                                                                				       random_state=55)
     return data_train, class_train, data_test, class_test

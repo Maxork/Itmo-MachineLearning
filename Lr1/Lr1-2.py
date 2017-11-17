@@ -12,8 +12,9 @@ from sklearn.neighbors import KNeighborsClassifier
 def load_data():
     dataset = pd.read_csv('data_banknote_authentication.txt', header=None).values
     money_attr = dataset[:, 0:-1]
+	money_attr = money_attr.astype(np.float64)
     money_class = dataset[:, -1]
-    money_class = money_class.astype(np.int64, copy=False)
+    money_class = money_class.astype(np.float64, copy=False)
     return train_test_split(money_attr, money_class, test_size=0.35)
 
 def euclidean_distance(instance1, instance2):
