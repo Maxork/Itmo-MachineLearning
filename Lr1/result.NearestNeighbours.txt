@@ -1,0 +1,3 @@
+myKNClass  Accuracy: 0.991683991684
+
+sklKNClass Accuracy: 0.997920997921

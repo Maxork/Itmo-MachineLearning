@@ -1,0 +1,3 @@
+myNBClass  Accuracy: 0.8616504854368932
+
+sklNBClass Accuracy: 0.849514563107
