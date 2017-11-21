@@ -1,0 +1,16 @@
+Test Size: 0.1
+DecisionTree accuracy:  0.978260869565
+RandomTree accuracy:  1.0
+---------------------------------------------
+Test Size: 0.2
+DecisionTree accuracy:  0.981818181818
+RandomTree accuracy:  0.992727272727
+---------------------------------------------
+Test Size: 0.3
+DecisionTree accuracy:  0.985436893204
+RandomTree accuracy:  0.990291262136
+---------------------------------------------
+Test Size: 0.4
+DecisionTree accuracy:  0.983606557377
+RandomTree accuracy:  0.998178506375
+---------------------------------------------
